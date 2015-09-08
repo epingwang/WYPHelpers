@@ -14,4 +14,9 @@
 
 -(void) roundView;
 
+@property (nonatomic, assign) IBInspectable CGFloat cornerRadius;
+
+@property (nonatomic, strong) IBInspectable UIColor *borderColor;
+@property (nonatomic, assign) IBInspectable CGFloat borderWidth;
+
 @end
